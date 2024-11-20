@@ -39,9 +39,9 @@ exports.createuser=async(req,res)=>{
 //select all users query
 exports.getUsers=async(req,res)=>{
     try
-    { 
-       let query =`SELECT * FROM test_table_user`;
-      let getdata= await zcql.executeZCQLQuery(query);   
+    {
+       const query =`SELECT * FROM test_table_user`;
+      const getdata= await zcql.executeZCQLQuery(query);   
       const catalystApp=catalyst.initialize(req,{scope:"admin"});
         res.status(200).json({success:true,message:"get all users response ",data:getdata});
 
