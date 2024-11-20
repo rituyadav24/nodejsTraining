@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "targets": [
+      "testproject_1_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  }
+}

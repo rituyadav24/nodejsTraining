@@ -1,0 +1,224 @@
+[debug] [2024-11-19T15:00:49.290Z] : 
+[debug] [2024-11-19T15:00:49.292Z] : ----------------------------------------------------------------------
+[debug] [2024-11-19T15:00:49.293Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\DEll\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-11-19T15:00:49.293Z] : CLI Version:  1.17.6
+[debug] [2024-11-19T15:00:49.293Z] : Platform:     win32
+[debug] [2024-11-19T15:00:49.294Z] : Node Version: v22.11.0
+[debug] [2024-11-19T15:00:49.294Z] : Time:         Tue Nov 19 2024 20:30:49 GMT+0530 (India Standard Time)
+[debug] [2024-11-19T15:00:49.294Z] : ----------------------------------------------------------------------
+[debug] [2024-11-19T15:00:49.294Z] : 
+[debug] [2024-11-19T15:00:51.013Z] : > authorizing via signed-in user option
+[debug] [2024-11-19T15:00:51.014Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.authentication.CREATE"]
+[debug] [2024-11-19T15:00:51.034Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/21891000000009001 
+
+[debug] [2024-11-19T15:00:52.005Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 19 Nov 2024 15:00:51 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=b14009a6059feb83ee8aa1c715a015c5; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=83c2a083-eb26-412e-b960-c4e5d0d2786c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=83c2a083-eb26-412e-b960-c4e5d0d2786c;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-19T15:00:52.020Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/21891000000009001/environment 
+
+[debug] [2024-11-19T15:00:52.323Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 19 Nov 2024 15:00:51 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=6fb40722-970d-41f4-922d-03b80d3e3cba;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6fb40722-970d-41f4-922d-03b80d3e3cba;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-19T15:00:52.834Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/21891000000009001/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-11-19T15:00:53.456Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 19 Nov 2024 15:00:52 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=4ead9897700827f973c0f7dbded7f673; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=7836f690-ff1b-46e1-83f5-07fb732a7ff1;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7836f690-ff1b-46e1-83f5-07fb732a7ff1;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-19T15:00:53.467Z] : unknown eol undefined hence skipping check
+[info] [2024-11-19T15:00:55.733Z] : 
+[info] [2024-11-19T15:00:55.734Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-11-19T15:00:55.735Z] : i testproject_1_function: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T15:00:55.736Z] : 
+[info] [2024-11-19T15:00:55.736Z] : 
+[info] [2024-11-19T15:00:55.737Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-11-19T15:00:55.737Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2024-11-19T15:00:55.738Z] : 
+[info] [2024-11-19T15:11:08.099Z] : 
+change of controller\Controller_user.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:11:11.100Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:11:11.100Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T15:13:58.446Z] : 
+change of router\router_user.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:14:01.346Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:14:01.347Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T15:20:08.528Z] : 
+change of router\router_user.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:20:11.098Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:20:11.099Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[debug] [2024-11-19T15:34:34.325Z] : > refreshing access token <
+[debug] [2024-11-19T15:34:34.327Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-11-19T15:34:35.226Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 19 Nov 2024 15:34:34 GMT","content-type":"application/json;charset=UTF-8","content-length":"1980","connection":"keep-alive","set-cookie":["zalb_b266a5bf57=a711b6da0e6cbadb5e254290f114a026; Path=/; Secure; HttpOnly","iamcsr=46800711-849c-4765-9215-429f937136ef;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=46800711-849c-4765-9215-429f937136ef;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-11-19T15:35:38.889Z] : 
+change of controller\Controller_user.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:35:43.389Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:35:43.395Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T15:36:19.149Z] : 
+change of router\router_user.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:36:22.751Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:36:22.752Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T15:36:47.459Z] : 
+change of router\router_user.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:36:51.264Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:36:51.266Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T15:37:15.061Z] : 
+change of controller\Controller_user.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:37:18.693Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:37:18.694Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T15:37:43.818Z] : 
+change of index.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:37:47.099Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:37:47.099Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T15:37:56.325Z] : 
+change of router\router_user.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:38:00.027Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:38:00.033Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T15:38:39.073Z] : 
+change of index.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:38:43.754Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:38:43.755Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T15:39:15.361Z] : 
+change of router\router_user.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:39:18.994Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:39:18.994Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T15:50:54.657Z] : 
+add of router\routerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:50:58.241Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:50:58.242Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T15:51:21.122Z] : 
+add of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:51:24.165Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:51:24.167Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T15:52:00.754Z] : 
+change of router\routerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:52:03.540Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:52:03.542Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T15:52:49.282Z] : 
+change of router\routerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:52:52.081Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:52:52.083Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T15:53:36.653Z] : 
+change of router\routerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:53:39.398Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:53:39.399Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T15:54:11.957Z] : 
+change of index.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T15:54:14.886Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T15:54:14.887Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T16:22:28.835Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T16:22:32.103Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T16:22:32.104Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T16:22:42.313Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T16:22:47.610Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T16:22:47.622Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T16:23:16.350Z] : 
+change of router\routerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T16:23:19.840Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T16:23:19.846Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T16:23:32.690Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T16:23:36.937Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T16:23:36.937Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T16:26:32.180Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T16:26:35.732Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T16:26:35.734Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T16:26:52.855Z] : 
+change of router\routerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T16:26:56.145Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T16:26:56.145Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T16:26:58.491Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T16:27:01.527Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T16:27:01.549Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T16:27:03.664Z] : 
+change of router\routerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T16:27:06.558Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T16:27:06.560Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T16:27:52.011Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T16:27:55.244Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T16:27:55.246Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T16:30:08.450Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[debug] [2024-11-19T16:30:08.548Z] : Connection reset from target URL :  Url {
+  protocol: 'http:',
+  slashes: true,
+  auth: null,
+  host: '127.0.0.1:4000',
+  port: '4000',
+  hostname: '127.0.0.1',
+  hash: null,
+  search: null,
+  query: null,
+  pathname: '/',
+  path: '/',
+  href: 'http://127.0.0.1:4000/'
+}
+[debug] [2024-11-19T16:30:08.596Z] : Connection reset from target URL :  Url {
+  protocol: 'http:',
+  slashes: true,
+  auth: null,
+  host: '127.0.0.1:4000',
+  port: '4000',
+  hostname: '127.0.0.1',
+  hash: null,
+  search: null,
+  query: null,
+  pathname: '/',
+  path: '/',
+  href: 'http://127.0.0.1:4000/'
+}
+[info] [2024-11-19T16:30:12.258Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T16:30:12.259Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T16:31:36.572Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[debug] [2024-11-19T16:31:36.618Z] : Connection reset from target URL :  Url {
+  protocol: 'http:',
+  slashes: true,
+  auth: null,
+  host: '127.0.0.1:4000',
+  port: '4000',
+  hostname: '127.0.0.1',
+  hash: null,
+  search: null,
+  query: null,
+  pathname: '/',
+  path: '/',
+  href: 'http://127.0.0.1:4000/'
+}
+[info] [2024-11-19T16:31:39.381Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T16:31:39.382Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T16:33:49.670Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T16:33:54.075Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T16:33:54.076Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T16:34:06.150Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T16:34:09.096Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T16:34:09.101Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T16:34:37.273Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T16:34:40.087Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T16:34:40.088Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[debug] [2024-11-19T16:34:43.887Z] : > refreshing access token <
+[debug] [2024-11-19T16:34:43.889Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-11-19T16:34:45.948Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 19 Nov 2024 16:34:44 GMT","content-type":"application/json;charset=UTF-8","content-length":"1980","connection":"keep-alive","set-cookie":["zalb_b266a5bf57=a711b6da0e6cbadb5e254290f114a026; Path=/; Secure; HttpOnly","iamcsr=a409ab1d-5f4b-4bcf-a034-0849b90de242;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a409ab1d-5f4b-4bcf-a034-0849b90de242;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-11-19T16:35:40.494Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T16:35:43.562Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T16:35:43.569Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-19T16:37:07.603Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-19T16:37:10.973Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-19T16:37:10.975Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/

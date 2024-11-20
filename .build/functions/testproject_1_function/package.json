@@ -1,0 +1,10 @@
+{
+	"name": "testproject_1_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "ritu.yadav@trigya.co",
+	"dependencies": {
+		"express": "^4.21.1",
+		"zcatalyst-sdk-node": "latest"
+	}
+}
