@@ -222,3 +222,90 @@ change of controller\controllerUser.js in testproject_1_function detected. Prepa
 change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
 [info] [2024-11-19T16:37:10.973Z] : i AdvancedIO[testproject_1_function]: ready!
 [info] [2024-11-19T16:37:10.975Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-20T02:59:59.020Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-20T03:00:00.766Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-20T03:00:00.767Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[debug] [2024-11-20T03:15:43.648Z] : > refreshing access token <
+[debug] [2024-11-20T03:15:43.655Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-11-20T03:15:44.980Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 20 Nov 2024 03:15:44 GMT","content-type":"application/json;charset=UTF-8","content-length":"1980","connection":"keep-alive","set-cookie":["zalb_b266a5bf57=a7f15cb1555106de5ac96d088b72e7c8; Path=/; Secure; HttpOnly","iamcsr=1d6b8cf0-00c4-46be-9d3f-ac0515e290ea;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1d6b8cf0-00c4-46be-9d3f-ac0515e290ea;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-20T03:43:00.299Z] : 
+[debug] [2024-11-20T03:43:00.301Z] : ----------------------------------------------------------------------
+[debug] [2024-11-20T03:43:00.302Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\DEll\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-11-20T03:43:00.302Z] : CLI Version:  1.17.6
+[debug] [2024-11-20T03:43:00.303Z] : Platform:     win32
+[debug] [2024-11-20T03:43:00.303Z] : Node Version: v22.11.0
+[debug] [2024-11-20T03:43:00.303Z] : Time:         Wed Nov 20 2024 09:13:00 GMT+0530 (India Standard Time)
+[debug] [2024-11-20T03:43:00.303Z] : ----------------------------------------------------------------------
+[debug] [2024-11-20T03:43:00.303Z] : 
+[debug] [2024-11-20T03:43:04.185Z] : > authorizing via signed-in user option
+[debug] [2024-11-20T03:43:04.186Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.authentication.CREATE"]
+[debug] [2024-11-20T03:43:04.207Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/21891000000009001 
+
+[debug] [2024-11-20T03:43:05.423Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 20 Nov 2024 03:43:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=4ead9897700827f973c0f7dbded7f673; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=b7f8c6c0-97bf-441d-96a1-90da1a73a9f8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b7f8c6c0-97bf-441d-96a1-90da1a73a9f8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-20T03:43:05.443Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/21891000000009001/environment 
+
+[debug] [2024-11-20T03:43:05.798Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 20 Nov 2024 03:43:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=c3d5ec374d3dc932973a3d50f55d8d00; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=ebdda79f-4d95-47ce-9f88-310d2579e585;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ebdda79f-4d95-47ce-9f88-310d2579e585;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-11-20T03:43:06.345Z] : Build folder already exists, starting cleanup
+[info] [2024-11-20T03:43:06.360Z] : 
+[error] [2024-11-20T03:43:06.361Z] : × Error: Error in running the pre cleanup process: unable to cleanup the .build directory.
+[debug] [2024-11-20T03:43:06.361Z] : Error Stack: CatalystError: Error running pre cleanup
+    at C:\Users\DEll\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\serve\index.js:66:19
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\DEll\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\serve\index.js:29:65)
+[debug] [2024-11-20T03:43:06.362Z] : Original Error: Error: EBUSY: resource busy or locked, rmdir 'C:\Users\DEll\Desktop\node_training2\.build\functions\testproject_1_function'
+[debug] [2024-11-20T03:43:06.362Z] : Error Status: 500
+[info] [2024-11-20T03:43:06.362Z] : 
+[error] [2024-11-20T03:43:06.363Z] : Please delete the C:\Users\DEll\Desktop\node_training2\.build directory, with administrator privilege if necessary.
+[debug] [2024-11-20T03:43:06.363Z] : EXEC ENDED with event: Error (User), message: Error running pre cleanup
+[debug] [2024-11-20T03:43:06.364Z] : TOTAL DURATION OF COMMAND EXEC : 2195
+[debug] [2024-11-20T03:43:06.376Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-11-20T03:43:07.470Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 20 Nov 2024 03:43:07 GMT","content-length":"0","connection":"keep-alive","set-cookie":["zalb_46512fd555=b14009a6059feb83ee8aa1c715a015c5; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=835aff48-9e6e-4777-aa89-af9f5c54e409;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=835aff48-9e6e-4777-aa89-af9f5c54e409;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-11-20T03:44:41.965Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-20T03:44:44.244Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-20T03:44:44.248Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-20T03:44:46.186Z] : 
+change of router\routerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-20T03:44:48.391Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-20T03:44:48.391Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-20T04:01:20.860Z] : 
+change of router\routerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-20T04:01:23.636Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-20T04:01:23.637Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-20T04:03:17.569Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-20T04:03:20.075Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-20T04:03:20.075Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-20T04:03:30.711Z] : 
+change of router\routerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-20T04:03:32.610Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-20T04:03:32.611Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-20T04:06:13.069Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-20T04:06:15.902Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-20T04:06:15.904Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-20T04:06:45.254Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-20T04:06:47.132Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-20T04:06:47.135Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-20T04:06:48.144Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-20T04:06:49.980Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-20T04:06:49.990Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
+[info] [2024-11-20T04:06:56.812Z] : 
+change of controller\controllerUser.js in testproject_1_function detected. Preparing your function, please wait...
+[info] [2024-11-20T04:06:59.025Z] : i AdvancedIO[testproject_1_function]: ready!
+[info] [2024-11-20T04:06:59.026Z] : i AdvancedIO[testproject_1_function]: http://localhost:3000/server/testproject_1_function/
